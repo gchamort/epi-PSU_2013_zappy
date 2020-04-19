@@ -1,0 +1,26 @@
+#voir
+{ joueur joueur nourriture nourriture, nourriture, sibur, nourriture nourriture, nourriture deraumere, nourriture, deraumere, nourriture mendiane, nourriture nourriture}
+
+#inventaire
+Received message from 1 "inventaire"
+Sending message "{nourriture 10,linemate 1,deraumere 0,sibur 0,mendiane 0,phiras 0,thystame 0}
+
+#broadcast
+Le serveur reçoit : "broadcast direction"
+direction (c'est le texte)
+Le serveur envoie : Sending message "message 7,direction"
+
+#incantation
+Received message from 1 "incantation"
+Si c'est ok:
+Sending message "elevation en cours"
+Sinon:
+Sending message "ko"
+
+A la fin de l'incantation:
+Si c'est ok:
+Sending message "niveau actuel : [NIVEAU DU MEC]"
+Sinon:
+Sending message "ko" to 1
+
+Le reste c'est que des KO/OK a envoyé.
